@@ -2,7 +2,8 @@ import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 
 const supabase = createClient(
   "https://sqtyosnnovpabbzxeojt.supabase.co",
-  "PASTE_YOUR_ANON_PUBLIC_KEY_HERE"
+  const SUPABASE_URL = "https://sqtyosnnovpabbzxeojt.supabase.co";
+const SUPABASE_KEY = "sb_publishable_XXXXXXXXXXXX";
 );
 
 const form = document.getElementById("creatorForm");
