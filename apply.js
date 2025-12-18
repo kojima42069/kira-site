@@ -1,8 +1,7 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
 const SUPABASE_URL = "https://sqtyosnnovpabbzxeojt.supabase.co";
-const SUPABASE_KEY = "sb_publishable_XXXXXXXXXXXX"; // paste your real key
-
+const SUPABASE_KEY = "sb_publishable_iHhNKOTCQkLZ9NI_9KhEw_mBy_nfPs";
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 const form = document.getElementById("creatorForm");
