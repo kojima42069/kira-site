@@ -1,7 +1,7 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
 const SUPABASE_URL = "https://sqtyosnnovpabbzxeojt.supabase.co";
-const SUPABASE_KEY = "sb_publishable_iHhNKOTCQkLZ9NI_9KhEw_mBy_nfPs";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNxdHlvc25ub3ZwYWJienhlb2p0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjU5NjA1MDksImV4cCI6MjA4MTUzNjUwOX0.RMtwB33qagEOmKJrHEb_iJZ8VeHh8kWcJe728Cr7YtM";
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 const form = document.getElementById("creatorForm");
